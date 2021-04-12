@@ -1,24 +1,40 @@
-# README
+# MICRO-REDDIT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project we were making a micro-reddit, a smaller version of reddit.We built User,Post and Comment models and their mutual relations.
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+- Ruby on Rails
+- Ruby
+- Active record
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Database creation
+```
+$ cd <folder>
+```
 
-* Database initialization
+```
+$ git clone https://github.com/MarkoNS1990/micro_reddit
+```
 
-* How to run the test suite
+```
+$ cd micro-reddit
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+> Migrating the database
 
-* Deployment instructions
+```
+$ rails db:migrate
+```
 
-* ...
+## Authors
+
+<hr>
+- Name :Marko Zecevic
+- Githhub :https://github.com/MarkoNS1990
+
+- Name :Addis Belete
+- Githhub :https://github.com/Addis0943
