@@ -1,4 +1,4 @@
-nters
+name: Linters
 
 on: pull_request
 
