@@ -15,22 +15,17 @@ Metrics/MethodLength:
   Include:
     - "app/controllers/*"
     - "app/models/*"
-  Max: 40
+  Max: 20
 Metrics/AbcSize:
   Include:
     - "app/controllers/*"
     - "app/models/*"
-  Max: 80
+  Max: 50
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-<<<<<<< HEAD
   ExcludedMethods: ["describe"]
   Max: 30
-=======
-  ExcludedMethods: ['describe']
-  Max: 50
->>>>>>> cd717d319041bcf015d41208aeb11a9a276e6da5
 
 Style/Documentation:
   Enabled: false
@@ -42,7 +37,8 @@ Style/AndOr:
   Enabled: false
 Style/DefWithParentheses:
   Enabled: false
-
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
